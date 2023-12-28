@@ -1,0 +1,80 @@
+body{
+    background-color:  hsl(47, 88%, 63%);
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Box{
+    width:380px;
+    height:300px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    transform: translate(550px, 100px);
+    padding-bottom: 120px;
+    padding-top:100px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px;
+    border-style:solid; 
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    transform: translatey(-375px);
+}
+
+.container img{
+    border-radius:15px;
+    transform: translate(-16px, -25px);
+}
+
+.container h2{
+    transform: translate(580px, -24px);
+    color: hsl(0, 0%, 7%);
+    font-size: 18px;
+    background: hsl(47, 88%, 63%);
+    width:100px;
+    height:30px;
+    border-radius: 7px;
+    text-align: center;
+    text-align:center;
+    padding-top:10px;
+    font-weight:bolder;
+}
+
+.container h3{
+    transform: translate(-100px, -20px);
+    font-size:17px;
+    font-weight:500;
+}
+
+.container h1{
+    font-size:25px;
+    transform: translate(-38px, -18px);
+}
+
+.container p{
+        width: 300px; /* Adjust the width as needed */
+        transform: translate(570px, -20px);
+        font-size: 16px;
+        color:hsl(0, 0%, 50%)
+}
+
+.Profile{
+    transform: translate(-100px, -400px);
+    font-size:16px;
+    font-weight: bold;
+    
+}
+
+.Profile img{
+    width:40px;
+    transform: translate( -10px, 15px);
+}
+
+.container h1:hover{
+    color: hsl(47, 88%, 63%);
+
+}
